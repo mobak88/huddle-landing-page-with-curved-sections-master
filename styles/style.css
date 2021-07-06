@@ -1,20 +1,8 @@
-:root {
-    /* --pink: hsl(322, 100%, 66%) */
-
-    --light-pink-h: 321
-    --light-pink-s: 100%
-    --light-pink-l: 78%
-    --light-pink-hsl: hsl(var(--light-pink-h), var(--light-pink-s), var(--light-pink-l))
-
-    /* --light-red: hsl(0, 100%, 63%)
-    --very-dark-cyan: hsl(192, 100%, 9%)
-    --very-pale-blue: hsl(0, 100%, 63%) */
-}
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -22,10 +10,27 @@ body {
   height: 100vh;
 }
 
+body {
+  font-family: "Open Sans", Sans-Serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
 .header {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 60px;
 }
 
@@ -45,3 +50,4 @@ body {
 .attribution {
   margin-top: 80vh;
 }
+/*# sourceMappingURL=style.css.map */

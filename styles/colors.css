@@ -1,0 +1,39 @@
+:root {
+  --pink-h: 322;
+  --pink-s: 100%;
+  --pink-l: 66%;
+  --pink-hsl: hsl(var(--pink-h), var(--pink-s), var(--pink-l));
+  --light-pink-h: 321;
+  --light-pink-s: 100%;
+  --light-pink-l: 78%;
+  --light-pink-hsl: hsl(
+    var(--light-pink-h),
+    var(--light-pink-s),
+    var(--light-pink-l)
+  );
+  --light-red-h: 0;
+  --light-red-s: 100%;
+  --light-red-l: 63%;
+  --light-red-hsl: hsl(
+    var(--light-red-h),
+    var(--light-red-s),
+    var(--light-red-l)
+  );
+  --very-dark-cyan-h: 192;
+  --very-dark-cyan-s: 100%;
+  --very-dark-cyan-l: 9%;
+  --very-dark-cyan-hsl: hsl(
+    var(--very-dark-cyan-h),
+    var(--very-dark-cyan-s),
+    var(--very-dark-cyan-l)
+  );
+  --very-pale-blue-h: 0;
+  --very-pale-blue-s: 100%;
+  --very-pale-blue-l: 60%;
+  --very-pale-blue-hsl: hsl(
+    var(--very-pale-blue-h),
+    var(--very-pale-blue-s),
+    var(--very-pale-blue-l)
+  );
+}
+/*# sourceMappingURL=variables.css.map */
