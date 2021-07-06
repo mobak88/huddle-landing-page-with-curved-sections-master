@@ -4,7 +4,7 @@
     --light-pink-h: 321
     --light-pink-s: 100%
     --light-pink-l: 78%
-    --light-pink-hsl: var(--light-pink-h), var(--light-pink-s), var(--light-pink-l)
+    --light-pink-hsl: hsl(var(--light-pink-h), var(--light-pink-s), var(--light-pink-l))
 
     /* --light-red: hsl(0, 100%, 63%)
     --very-dark-cyan: hsl(192, 100%, 9%)
@@ -38,7 +38,7 @@ body {
   border-radius: 25px;
   padding: 5px 25px 5px 25px;
   background-color: #fff;
-  border: 1px solid var(--light-pink-hsl);
+  border: 1px solid hsl(var(--light-pink-hsl));
   color: var(--light-pink-hsl);
 }
 
