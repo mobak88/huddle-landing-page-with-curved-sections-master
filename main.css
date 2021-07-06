@@ -1,0 +1,47 @@
+:root {
+    /* --pink: hsl(322, 100%, 66%) */
+
+    --light-pink-h: 321
+    --light-pink-s: 100%
+    --light-pink-l: 78%
+    --light-pink-hsl: var(--light-pink-h), var(--light-pink-s), var(--light-pink-l)
+
+    /* --light-red: hsl(0, 100%, 63%)
+    --very-dark-cyan: hsl(192, 100%, 9%)
+    --very-pale-blue: hsl(0, 100%, 63%) */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.logo {
+  margin-left: 70px;
+}
+
+.header--btn {
+  margin-right: 70px;
+  border-radius: 25px;
+  padding: 5px 25px 5px 25px;
+  background-color: #fff;
+  border: 1px solid var(--light-pink-hsl);
+  color: var(--light-pink-hsl);
+}
+
+.attribution {
+  margin-top: 80vh;
+}
