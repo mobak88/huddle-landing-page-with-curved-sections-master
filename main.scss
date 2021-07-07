@@ -9,9 +9,12 @@
 @import "base/typography";
 @import "base/utilities";
 
+// Sections
+@import "components/sections/header";
+@import "components/sections/main-section";
+
 // Components
 @import "components/buttons";
-@import "components/header";
 @import "components/headings";
 @import "components/navigation";
 

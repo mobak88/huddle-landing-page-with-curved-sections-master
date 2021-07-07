@@ -1,0 +1,48 @@
+section {
+  background-color: $white;
+}
+
+.main {
+  display: flex;
+  padding: 8rem 0 8rem 0;
+
+  &__text {
+    max-width: 35%;
+    align-self: center;
+    margin-right: auto;
+
+    &--left {
+      margin-left: 9rem;
+    }
+  }
+
+  &__h1 {
+    color: $very-dark-cyan;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  &__paragraf {
+    color: $very-dark-cyan;
+    font-size: 1.55rem;
+  }
+
+  &__image {
+    align-self: center;
+    &--right {
+      margin-right: 9rem;
+    }
+  }
+}
+
+.dark {
+  background-color: $very-pale-blue;
+
+  &::before {
+    background-image: url("images/bg-section-top-desktop-1.svg");
+  }
+
+  &::after {
+    background-image: url("images/bg-section-bottom-desktop-1.svg");
+  }
+}
