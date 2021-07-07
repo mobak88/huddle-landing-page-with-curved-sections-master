@@ -90,11 +90,11 @@ section {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-right: auto;
 }
 
 .main__text--left {
   margin-left: 9rem;
+  margin-right: auto;
 }
 
 .main__h1 {
@@ -124,6 +124,13 @@ section {
 
 .dark__top {
   margin-bottom: -0.3rem;
+}
+
+.bright {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .btn__pink {

@@ -9,10 +9,10 @@ section {
   &__text {
     max-width: 35%;
     align-self: center;
-    margin-right: auto;
 
     &--left {
       margin-left: 9rem;
+      margin-right: auto;
     }
   }
 
@@ -41,4 +41,8 @@ section {
   &__top {
     margin-bottom: -0.3rem;
   }
+}
+
+.bright {
+  flex-direction: row-reverse;
 }
