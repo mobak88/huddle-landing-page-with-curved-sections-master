@@ -38,11 +38,7 @@ section {
 .dark {
   background-color: $very-pale-blue;
 
-  &::before {
-    background-image: url("images/bg-section-top-desktop-1.svg");
-  }
-
-  &::after {
-    background-image: url("images/bg-section-bottom-desktop-1.svg");
+  &__top {
+    margin-bottom: -0.3rem;
   }
 }
