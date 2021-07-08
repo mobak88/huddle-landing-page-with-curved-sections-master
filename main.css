@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Open Sans", Sans-Serif;
-  max-width: 1440px;
+  max-width: 144rem;
   margin: 0 auto 0 auto;
   -webkit-box-shadow: 12px 0 15px -4px rgba(235, 235, 235, 0.8), -12px 0 15px -4px rgba(235, 235, 235, 0.8);
           box-shadow: 12px 0 15px -4px rgba(235, 235, 235, 0.8), -12px 0 15px -4px rgba(235, 235, 235, 0.8);
@@ -57,6 +57,10 @@ a {
   padding: 2.4rem 10rem 2.4rem 10rem;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
           box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.btn__pink:hover {
+  background-color: #ff8fd8;
 }
 
 .heading {
@@ -112,6 +116,11 @@ a {
   color: #ff52bf;
 }
 
+.nav__btn:hover {
+  border: 1px solid #ff8fd8;
+  color: #ff8fd8;
+}
+
 .nav__logo {
   margin-left: 7rem;
 }
@@ -129,6 +138,10 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 10rem;
+}
+
+.screens__image {
+  max-width: 96rem;
 }
 
 .community {
@@ -214,7 +227,7 @@ main {
 
 footer {
   background-color: #00252e;
-  margin-top: -0.28rem;
+  margin-top: -0.3rem;
 }
 
 .footer {
@@ -247,8 +260,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 25%;
-  margin-right: 28rem;
+  max-width: 45%;
 }
 
 .footer__secondary {
@@ -268,6 +280,10 @@ footer {
   line-height: 180%;
 }
 
+.footer__paragraf--width {
+  max-width: 55%;
+}
+
 .footer__contact {
   margin-top: 3rem;
   display: -webkit-inline-box;
@@ -280,6 +296,10 @@ footer {
   margin-left: 2rem;
   font-size: 1.6rem;
   line-height: 1.7rem;
+}
+
+.footer__contact--info:hover {
+  color: #ff52bf;
 }
 
 .footer__inline {
@@ -301,9 +321,11 @@ footer {
 
 .footer__subscribe {
   border-radius: 0.5rem;
-  padding: 1.6rem 7rem 1.6rem 7rem;
+  padding: 1.6rem 2rem 1.6rem 2rem;
+  width: 30rem;
   margin-right: 4rem;
   border: none;
+  outline: none;
 }
 
 .footer__btn {
@@ -313,6 +335,11 @@ footer {
   border-radius: 0.5rem;
   color: #fff;
   font-size: 1.7rem;
+}
+
+.footer__btn:hover {
+  background-color: #ff8fd8;
+  cursor: pointer;
 }
 
 .margin__big--top {

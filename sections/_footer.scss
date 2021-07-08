@@ -1,6 +1,6 @@
 footer {
   background-color: $very-dark-cyan;
-  margin-top: -0.28rem;
+  margin-top: -0.3rem;
 }
 
 .footer {
@@ -18,8 +18,7 @@ footer {
   &__right {
     display: flex;
     flex-direction: column;
-    max-width: 25%;
-    margin-right: 28rem;
+    max-width: 45%;
   }
 
   &__secondary {
@@ -33,6 +32,10 @@ footer {
     margin-top: 3rem;
     font-size: 1.4rem;
     line-height: 180%;
+
+    &--width {
+      max-width: 55%;
+    }
   }
 
   &__contact {
@@ -44,6 +47,10 @@ footer {
       margin-left: 2rem;
       font-size: 1.6rem;
       line-height: 1.7rem;
+
+      &:hover {
+        color: $pink;
+      }
     }
   }
 
@@ -64,9 +71,11 @@ footer {
 
   &__subscribe {
     border-radius: 0.5rem;
-    padding: 1.6rem 7rem 1.6rem 7rem;
+    padding: 1.6rem 2rem 1.6rem 2rem;
+    width: 30rem;
     margin-right: 4rem;
     border: none;
+    outline: none;
   }
 
   &__btn {
@@ -76,6 +85,11 @@ footer {
     border-radius: 0.5rem;
     color: $white;
     font-size: 1.7rem;
+
+    &:hover {
+      background-color: $light-pink;
+      cursor: pointer;
+    }
   }
 }
 

@@ -12,6 +12,11 @@
     background-color: $white;
     border: 1px solid $pink;
     color: $pink;
+
+    &:hover {
+      border: 1px solid $light-pink;
+      color: $light-pink;
+    }
   }
 
   &__logo {

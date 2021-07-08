@@ -7,6 +7,10 @@
   display: flex;
   justify-content: center;
   margin-bottom: 10rem;
+
+  &__image {
+    max-width: 96rem;
+  }
 }
 
 .community {
