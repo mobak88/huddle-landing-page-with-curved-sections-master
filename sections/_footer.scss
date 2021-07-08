@@ -1,0 +1,97 @@
+footer {
+  background-color: $very-dark-cyan;
+  margin-top: -0.28rem;
+}
+
+.footer {
+  display: flex;
+  padding: 10rem 0 10rem 0;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin-left: 12rem;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    margin-right: 28rem;
+  }
+
+  &__secondary {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7rem;
+  }
+
+  &__paragraf {
+    color: $very-pale-blue;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    line-height: 180%;
+  }
+
+  &__contact {
+    margin-top: 3rem;
+    display: inline-flex;
+
+    &--info {
+      color: $very-pale-blue;
+      margin-left: 2rem;
+      font-size: 1.6rem;
+      line-height: 1.7rem;
+    }
+  }
+
+  &__inline {
+    display: inline-flex;
+
+    &--middle {
+      margin: 0 3rem 0 3rem;
+    }
+  }
+
+  &__heading {
+    color: $white;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+
+  &__subscribe {
+    border-radius: 0.5rem;
+    padding: 1.6rem 7rem 1.6rem 7rem;
+    margin-right: 4rem;
+    border: none;
+  }
+
+  &__btn {
+    background-color: $pink;
+    border: none;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+    border-radius: 0.5rem;
+    color: $white;
+    font-size: 1.7rem;
+  }
+}
+
+.margin__big--top {
+  margin-top: 8rem;
+}
+
+.margin__bottom {
+  margin-bottom: 3rem;
+}
+
+.attribution {
+  color: $white;
+  font-size: 1.4rem;
+
+  &__link {
+    color: $pink;
+  }
+}
