@@ -43,6 +43,10 @@ h6 {
   color: #888f96;
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn__pink {
   border-radius: 25rem;
   border: none;
@@ -69,7 +73,7 @@ h6 {
   text-align: center;
 }
 
-.heading__h1 {
+.heading__centered {
   font-size: 5rem;
   color: #00252e;
 }
@@ -168,7 +172,7 @@ main {
   margin-right: auto;
 }
 
-.main__h1 {
+.main__heading {
   color: #00252e;
   font-size: 4rem;
   margin-bottom: 2rem;
