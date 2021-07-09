@@ -5,8 +5,14 @@
   text-align: center;
 
   &__centered {
-    font-size: 5rem;
     color: $very-dark-cyan;
+    &--h1 {
+      font-size: 5rem;
+    }
+
+    &--h2 {
+      font-size: 4rem;
+    }
   }
 
   &__paragraf {

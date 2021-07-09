@@ -36,6 +36,22 @@ footer {
     &--width {
       max-width: 55%;
     }
+
+    &--hidden {
+      display: none;
+    }
+
+    &--invalid {
+      margin-top: 1rem;
+      color: $light-red;
+      font-size: 1.2rem;
+    }
+
+    &--valid {
+      margin-top: 1rem;
+      color: $light-green;
+      font-size: 1.2rem;
+    }
   }
 
   &__contact {
@@ -76,6 +92,14 @@ footer {
     margin-right: 4rem;
     border: none;
     outline: none;
+
+    &--invalid {
+      border: 1px solid $light-red;
+    }
+
+    &--valid {
+      border: 1px solid $light-green;
+    }
   }
 
   &__btn {

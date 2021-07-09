@@ -78,8 +78,15 @@ a {
 }
 
 .heading__centered {
-  font-size: 5rem;
   color: #00252e;
+}
+
+.heading__centered--h1 {
+  font-size: 5rem;
+}
+
+.heading__centered--h2 {
+  font-size: 4rem;
 }
 
 .heading__paragraf {
@@ -284,6 +291,22 @@ footer {
   max-width: 55%;
 }
 
+.footer__paragraf--hidden {
+  display: none;
+}
+
+.footer__paragraf--invalid {
+  margin-top: 1rem;
+  color: #ff4242;
+  font-size: 1.2rem;
+}
+
+.footer__paragraf--valid {
+  margin-top: 1rem;
+  color: #20d11a;
+  font-size: 1.2rem;
+}
+
 .footer__contact {
   margin-top: 3rem;
   display: -webkit-inline-box;
@@ -326,6 +349,14 @@ footer {
   margin-right: 4rem;
   border: none;
   outline: none;
+}
+
+.footer__subscribe--invalid {
+  border: 1px solid #ff4242;
+}
+
+.footer__subscribe--valid {
+  border: 1px solid #20d11a;
 }
 
 .footer__btn {
