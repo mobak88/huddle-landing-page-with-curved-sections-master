@@ -87,3 +87,10 @@ main {
 .c2a {
   padding: 15rem 0 15rem 0;
 }
+
+.grow__svg {
+  @include responsive(small-phone) {
+    width: 250px;
+    height: 200px;
+  }
+}

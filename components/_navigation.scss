@@ -4,6 +4,10 @@
   justify-content: space-between;
   padding-top: 6rem;
 
+  @include responsive(small-phone) {
+    justify-content: center;
+  }
+
   &__btn {
     font-size: 1.6rem;
     margin-right: 7rem;
@@ -19,6 +23,10 @@
       padding: 1.5rem 4rem 1.5rem 4rem;
     }
 
+    @include responsive(small-phone) {
+      display: none;
+    }
+
     &:hover {
       border: 1px solid $light-pink;
       color: $light-pink;
@@ -31,6 +39,10 @@
     @include responsive(phone) {
       width: 180px;
       height: 30px;
+    }
+
+    @include responsive(small-phone) {
+      margin-left: 0;
     }
   }
 }

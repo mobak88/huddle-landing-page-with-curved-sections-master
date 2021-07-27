@@ -29,6 +29,12 @@ html {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+}
+
 body {
   font-family: "Open Sans", Sans-Serif;
   max-width: 144rem;
@@ -166,6 +172,12 @@ a {
   padding: 25rem 0 10rem 0;
 }
 
+@media only screen and (max-width: 500px) {
+  .top-padding {
+    padding: 15rem 0 10rem 0;
+  }
+}
+
 .nav {
   width: 100%;
   display: -webkit-box;
@@ -175,6 +187,14 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 6rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .nav__btn {
@@ -195,6 +215,12 @@ a {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .nav__btn {
+    display: none;
+  }
+}
+
 .nav__btn:hover {
   border: 1px solid #ff8fd8;
   color: #ff8fd8;
@@ -208,6 +234,12 @@ a {
   .nav__logo {
     width: 180px;
     height: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav__logo {
+    margin-left: 0;
   }
 }
 
@@ -399,6 +431,13 @@ main {
 
 .c2a {
   padding: 15rem 0 15rem 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .grow__svg {
+    width: 250px;
+    height: 200px;
+  }
 }
 
 footer {
@@ -671,6 +710,19 @@ a svg:hover #facebook-link {
 .attribution {
   color: #fff;
   font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .attribution {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .attribution {
+    font-size: 2.2rem;
+    max-width: 80%;
+  }
 }
 
 .attribution__link {
