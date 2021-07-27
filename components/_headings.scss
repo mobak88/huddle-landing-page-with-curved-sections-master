@@ -13,6 +13,10 @@
     &--h2 {
       font-size: 4rem;
     }
+
+    @include responsive(phone) {
+      width: 80%;
+    }
   }
 
   &__paragraf {
@@ -22,6 +26,12 @@
     max-width: 64rem;
     color: $very-dark-cyan;
     font-weight: 400;
+
+    @include responsive(phone) {
+      font-size: 3rem;
+      padding: 3.5rem 0 0 0;
+      max-width: 85%;
+    }
   }
 }
 

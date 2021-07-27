@@ -6,13 +6,26 @@ main {
   display: flex;
   padding: 8rem 0 8rem 0;
 
+  @include responsive(phone) {
+    flex-direction: column-reverse;
+  }
+
   &__text {
     max-width: 35%;
     align-self: center;
 
+    @include responsive(phone) {
+      max-width: 80%;
+      align-self: center;
+    }
+
     &--left {
       margin-left: 12rem;
       margin-right: auto;
+
+      @include responsive(phone) {
+        margin-left: auto;
+      }
     }
   }
 
@@ -20,17 +33,37 @@ main {
     color: $very-dark-cyan;
     font-size: 4rem;
     margin-bottom: 2rem;
+
+    @include responsive(phone) {
+      font-size: 5rem;
+      text-align: center;
+    }
   }
 
   &__paragraf {
     color: $very-dark-cyan;
     font-size: 1.55rem;
+
+    @include responsive(phone) {
+      font-size: 3rem;
+      text-align: center;
+    }
   }
 
   &__image {
     align-self: center;
+
+    @include responsive(phone) {
+      margin-bottom: 15rem;
+    }
+
     &--right {
       margin-right: 12rem;
+
+      @include responsive(phone) {
+        margin-right: auto;
+        margin-left: auto;
+      }
     }
   }
 }
@@ -45,6 +78,10 @@ main {
 
 .bright {
   flex-direction: row-reverse;
+
+  @include responsive(phone) {
+    flex-direction: column-reverse;
+  }
 }
 
 .c2a {

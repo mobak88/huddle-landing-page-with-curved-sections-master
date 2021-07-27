@@ -11,6 +11,24 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   font-family: "Open Sans", Sans-Serif;
   max-width: 144rem;
@@ -18,6 +36,24 @@ body {
   -webkit-box-shadow: 12px 0 15px -4px rgba(235, 235, 235, 0.8), -12px 0 15px -4px rgba(235, 235, 235, 0.8);
           box-shadow: 12px 0 15px -4px rgba(235, 235, 235, 0.8), -12px 0 15px -4px rgba(235, 235, 235, 0.8);
   background-color: #fff;
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    max-width: 100%;
+  }
 }
 
 h1,
@@ -38,9 +74,16 @@ h6 {
   font-size: 9.5rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .numbers__big {
+    font-size: 12rem;
+  }
+}
+
 .paragraf__big {
-  font-size: 2.3rem;
+  font-size: 3rem;
   color: #888f96;
+  text-align: center;
 }
 
 a {
@@ -57,6 +100,13 @@ a {
   padding: 2.4rem 10rem 2.4rem 10rem;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
           box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .btn__pink {
+    font-size: 3rem;
+    margin: 5.5rem 0 0 0;
+  }
 }
 
 .btn__pink:hover {
@@ -89,6 +139,12 @@ a {
   font-size: 4rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .heading__centered {
+    width: 80%;
+  }
+}
+
 .heading__paragraf {
   padding: 2rem 0 0 0;
   font-size: 2.1rem;
@@ -96,6 +152,14 @@ a {
   max-width: 64rem;
   color: #00252e;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 1100px) {
+  .heading__paragraf {
+    font-size: 3rem;
+    padding: 3.5rem 0 0 0;
+    max-width: 85%;
+  }
 }
 
 .top-padding {
@@ -123,6 +187,14 @@ a {
   color: #ff52bf;
 }
 
+@media only screen and (max-width: 1100px) {
+  .nav__btn {
+    font-size: 2rem;
+    border-radius: 3.5rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
+  }
+}
+
 .nav__btn:hover {
   border: 1px solid #ff8fd8;
   color: #ff8fd8;
@@ -130,6 +202,13 @@ a {
 
 .nav__logo {
   margin-left: 7rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .nav__logo {
+    width: 180px;
+    height: 30px;
+  }
 }
 
 .header {
@@ -151,6 +230,12 @@ a {
   max-width: 96rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .screens__image {
+    width: 80%;
+  }
+}
+
 .community {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,13 +245,37 @@ a {
           justify-content: center;
 }
 
+@media only screen and (max-width: 1100px) {
+  .community {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .formed {
   margin-right: auto;
   margin-left: 32rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .formed {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .messages {
   margin-right: 32rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .messages {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12rem;
+  }
 }
 
 main {
@@ -180,6 +289,15 @@ main {
   padding: 8rem 0 8rem 0;
 }
 
+@media only screen and (max-width: 1100px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
 .main__text {
   max-width: 35%;
   -ms-flex-item-align: center;
@@ -187,9 +305,24 @@ main {
       align-self: center;
 }
 
+@media only screen and (max-width: 1100px) {
+  .main__text {
+    max-width: 80%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 .main__text--left {
   margin-left: 12rem;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+  .main__text--left {
+    margin-left: auto;
+  }
 }
 
 .main__heading {
@@ -198,9 +331,23 @@ main {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .main__heading {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
 .main__paragraf {
   color: #00252e;
   font-size: 1.55rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .main__paragraf {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
 
 .main__image {
@@ -209,8 +356,21 @@ main {
       align-self: center;
 }
 
+@media only screen and (max-width: 1100px) {
+  .main__image {
+    margin-bottom: 15rem;
+  }
+}
+
 .main__image--right {
   margin-right: 12rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .main__image--right {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .dark {
@@ -226,6 +386,15 @@ main {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 1100px) {
+  .bright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 .c2a {
@@ -247,6 +416,16 @@ footer {
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-left: 5%;
+  }
+}
+
 .footer__left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,6 +438,13 @@ footer {
   margin-left: 12rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer__left {
+    max-width: 90%;
+    margin: 10rem auto auto auto;
+  }
+}
+
 .footer__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,6 +454,13 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 45%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer__right {
+    max-width: 90%;
+    margin: 10rem auto auto auto;
+  }
 }
 
 .footer__secondary {
@@ -287,8 +480,21 @@ footer {
   line-height: 180%;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer__paragraf {
+    font-size: 3rem;
+    margin: 5rem 0 5rem 0;
+  }
+}
+
 .footer__paragraf--width {
   max-width: 55%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer__paragraf--width {
+    max-width: 90%;
+  }
 }
 
 .footer__paragraf--hidden {
@@ -321,8 +527,22 @@ footer {
   line-height: 1.7rem;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer__contact--info {
+    font-size: 3rem;
+    line-height: 3.1rem;
+  }
+}
+
 .footer__contact--info:hover {
   color: #ff52bf;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer__contact--icon {
+    width: 3.7rem;
+    height: 3.7rem;
+  }
 }
 
 .footer__inline {
@@ -331,8 +551,35 @@ footer {
   display: inline-flex;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer__inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 90%;
+    margin-top: 4rem;
+  }
+}
+
 .footer__inline--middle {
   margin: 0 3rem 0 3rem;
+}
+
+.footer__inline--socials {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer__inline--icons {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
 }
 
 .footer__heading {
@@ -340,6 +587,12 @@ footer {
   font-weight: 600;
   font-size: 2.8rem;
   line-height: 1;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer__heading {
+    font-size: 5rem;
+  }
 }
 
 .footer__subscribe {
@@ -351,12 +604,21 @@ footer {
   outline: none;
 }
 
+@media only screen and (max-width: 1100px) {
+  .footer__subscribe {
+    margin-bottom: 3rem;
+    padding: 2.5rem 3rem 2.5rem 3rem;
+    width: 100%;
+    border-radius: 1.5rem;
+  }
+}
+
 .footer__subscribe--invalid {
   border: 1px solid #ff4242;
 }
 
 .footer__subscribe--valid {
-  border: 1px solid #20d11a;
+  border: 2px solid #20d11a;
 }
 
 .footer__btn {
@@ -366,6 +628,19 @@ footer {
   border-radius: 0.5rem;
   color: #fff;
   font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer__btn {
+    margin-bottom: 3rem;
+    padding: 2rem 3rem 2rem 3rem;
+    width: 50%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    border-radius: 1.5rem;
+    font-weight: 600;
+    font-size: 3rem;
+  }
 }
 
 .footer__btn:hover {
@@ -379,6 +654,18 @@ footer {
 
 .margin__bottom {
   margin-bottom: 3rem;
+}
+
+a svg:hover #twitter-link {
+  fill: #08ccfd;
+}
+
+a svg:hover #instagram-link {
+  fill: #08ccfd;
+}
+
+a svg:hover #facebook-link {
+  fill: #08ccfd;
 }
 
 .attribution {

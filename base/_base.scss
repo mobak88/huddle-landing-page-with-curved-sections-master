@@ -6,6 +6,16 @@
 
 html {
   font-size: 62.5%;
+
+  @include responsive(tab-land) {
+    font-size: 60%;
+  }
+  @include responsive(tab-port) {
+    font-size: 55%;
+  }
+  @include responsive(phone) {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -15,6 +25,16 @@ body {
   box-shadow: 12px 0 15px -4px rgba(235, 235, 235, 0.8),
     -12px 0 15px -4px rgba(235, 235, 235, 0.8);
   background-color: $white;
+
+  @include responsive(tab-land) {
+    max-width: 100%;
+  }
+  @include responsive(tab-port) {
+    max-width: 100%;
+  }
+  @include responsive(phone) {
+    max-width: 100%;
+  }
 }
 
 h1,

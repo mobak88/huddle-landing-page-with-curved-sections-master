@@ -10,19 +10,38 @@
 
   &__image {
     max-width: 96rem;
+
+    @include responsive(phone) {
+      width: 80%;
+    }
   }
 }
 
 .community {
   display: flex;
   justify-content: center;
+
+  @include responsive(phone) {
+    flex-direction: column;
+  }
 }
 
 .formed {
   margin-right: auto;
   margin-left: 32rem;
+
+  @include responsive(phone) {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .messages {
   margin-right: 32rem;
+
+  @include responsive(phone) {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 12rem;
+  }
 }

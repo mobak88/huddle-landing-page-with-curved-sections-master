@@ -8,6 +8,11 @@
   padding: 2.4rem 10rem 2.4rem 10rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 
+  @include responsive(phone) {
+    font-size: 3rem;
+    margin: 5.5rem 0 0 0;
+  }
+
   &:hover {
     background-color: $light-pink;
   }
