@@ -43,6 +43,7 @@
 
     @include responsive(small-phone) {
       margin-left: 0;
+      margin-top: 2rem;
     }
   }
 }

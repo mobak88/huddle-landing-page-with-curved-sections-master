@@ -1,6 +1,10 @@
 footer {
   background-color: $very-dark-cyan;
   margin-top: -0.3rem;
+
+  @include responsive(small-phone) {
+    margin-top: -1.3rem;
+  }
 }
 
 .footer {
@@ -217,13 +221,13 @@ a svg {
   color: $white;
   font-size: 1.4rem;
 
-  @include responsive(small-phone) {
-    font-size: 2rem;
-  }
-
   @include responsive(phone) {
     font-size: 2.2rem;
     max-width: 80%;
+  }
+
+  @include responsive(small-phone) {
+    font-size: 2rem;
   }
 
   &__link {
